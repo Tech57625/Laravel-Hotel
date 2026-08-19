@@ -1,0 +1,41 @@
+/* =========================
+   Google Fonts
+========================= */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+
+/* =========================
+   Variables (Laravel SCSS)
+========================= */
+@import "variables";
+
+
+/* =========================
+   Bootstrap
+========================= */
+@import "bootstrap/scss/bootstrap";
+
+
+/* =========================
+   Plugins CSS
+========================= */
+@import "toastr/toastr";
+@import "select2/dist/css/select2.css";
+@import "datatables.net-bs5/css/dataTables.bootstrap5.css";
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+
+/* =========================
+   Custom Components
+========================= */
+@import "navbar";
+@import "notification";
+@import "progressindicatior";
+@import "datatable";
+
+
+/* =========================
+   Custom Styles (LAST)
+========================= */
+@import "custom";
